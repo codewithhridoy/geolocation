@@ -1,0 +1,30 @@
+{
+  "name": "react_native_flux",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@react-native-community/masked-view": "^0.1.11",
+    "react": "16.8.3",
+    "react-native": "0.59.5",
+    "react-native-gesture-handler": "^1.10.3",
+    "react-native-reanimated": "^2.2.0",
+    "react-native-router-flux": "^4.3.1",
+    "react-native-safe-area-context": "^3.2.0",
+    "react-native-screens": "^3.4.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/runtime": "^7.14.6",
+    "babel-jest": "^27.0.2",
+    "jest": "^27.0.4",
+    "metro-react-native-babel-preset": "^0.66.0",
+    "react-test-renderer": "16.8.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
